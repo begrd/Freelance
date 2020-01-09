@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Pagrindinis</title>
+	<title>Pagr</title>
 </head>
 <link href="https://fonts.googleapis.com/css?family=Strait" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="pradinioStilius.css">
