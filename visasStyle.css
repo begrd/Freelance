@@ -1,0 +1,452 @@
+html,body{
+font-family: 'Open Sans Condensed';
+	margin:0;
+	padding:0;
+	height:100%;
+	width:100%;
+
+}
+.klaida{
+  background: red;
+  width: 100%;
+padding:10px;
+  color:white;
+  font-size: 20px;
+  text-align: center;
+
+}
+.success{
+background: green;
+  width: 100%;
+padding:10px;
+  color:white;
+  font-size: 20px;
+  text-align: center;
+
+}
+.intro{
+
+	height:250px;
+	width:100%;
+	margin:auto;
+	background-color:white;
+	display:table;
+	top:0;
+	background-size:cover;
+	background-position: center;
+}
+
+
+
+
+.headH1{
+	font-size:60px;
+
+	color:black;
+
+	font-family: 'Montserrat';
+}
+.headp{
+	color:black;
+font-size: 20px;
+font-family: 'Montserrat';
+	background-color:white;
+}
+.intro .inner{
+
+	display:table-cell;
+	vertical-align: middle;
+	width:100%;
+	max-width: none;
+}
+.content{
+
+	max-width:700px;
+	margin:0 auto;
+	text-align: center;
+
+}
+.navbar{
+	background-color:transparent;
+	color:color;
+	border:none;
+}
+.nav.navbar-nav.navbar-right li a {
+    color: black;
+}
+.nav.navbar-nav li a {
+    color: black;
+transition: all 1s;
+    font-size:15px;
+}
+.logo{
+
+	width:30px;
+}
+
+.nav.navbar-nav li a:hover {
+background-color: rgba(0,0,0,0);
+color:black;
+
+}
+
+
+/* mygtukai */
+
+
+
+.kontaktuMygt{
+font-family: 'Open Sans Condensed';
+	font-size:18px;
+  background-color:white;
+  border-radius:5px;
+color:#036564;
+border:1px solid #036564;
+
+
+width:250px;
+height:50px;
+padding:0px;
+transition:all 2s;
+}
+ .kontaktuMygt:hover{
+  background-color:#036564;
+  color:white;
+  border:1px solid white;
+cursor:pointer;  
+font-size:18px;
+transition: all 1s;
+width:300px;
+}
+
+
+
+
+
+
+/* formos elementai */
+
+.iIvestis{
+font-size: 35px;
+background-color:white;
+height:45px;
+border:none;
+color:#036564;
+}
+
+
+.textareaR{
+	resize:none;
+	font-size:25px;
+height:120px;
+width:450px;
+border:none;
+}
+
+
+select{
+	border:none;
+	width:250px;
+	height:60px;
+}
+.crop{
+	margin:0 auto;
+	overflow:hidden;
+	width:200px;
+	height:200px;
+}
+
+.prekiu_foto{
+
+	width:300px;
+}
+
+/* vartotojo paskyra*/
+.V_H1{
+	color:#036564;
+font-size: 50px;
+	padding:25px;
+}
+.V_Centras{
+background: white;
+box-shadow: 0px 0px 5px 0px black;
+width:50%;
+margin:0 auto;
+text-align: center;
+}
+
+
+
+
+.background{
+background:linear-gradient(white,rgba(58, 83, 122,0.7));
+	height:800px;
+	z-index: -999;
+}
+/* darbu ikelimas  */
+input[type=file] {
+    margin: 0 auto;
+}
+.darbuIkelimas{
+background-color:white;
+box-shadow: 0px 0px 5px 0px black;
+width:60%;
+margin:0 auto;
+	text-align:center;
+}
+
+.DI_Ivestis{
+	font-size: 25px;
+	color:#374172;
+	border:none;
+	width:200px;
+box-shadow: 0px 3px 0px 0px #374172;
+
+}
+
+.DI_TextArea{
+	font-size: 25px;
+	color:#374172;
+	border:3px solid #374172;
+width:500px;
+height:300px;
+}
+.DI_H1{
+color:#374172;
+padding:40px;
+	font-size: 40px;
+}
+.DI_Select{
+	color:white;
+	background:#374172;
+}
+
+.DI_H3{
+color:#374172;
+padding:5px;
+	font-size: 30px;
+}
+
+/* darbu perziura*/
+
+.tarpas{
+
+	margin-bottom:50px;
+}
+.DP_Pavadinimas{
+
+	text-align: center;
+	font-size: 50px;
+	color:rgb(34, 59, 99);
+}
+
+.DP_Tekstas{
+
+	text-align: center;
+	font-size: 25px;
+	color:rgb(65, 96, 145);
+}
+.select{
+	background-color: rgb(65, 96, 145);
+	color:white;
+	font-size: 20px;
+	text-align: center;
+}
+.selectCenter{
+	text-align: center;
+}
+.vidus{
+height:300px;
+	box-shadow: 0px 0px 10px 0px rgba(66, 134, 244,0.5);
+}
+
+.crop{
+	padding-top:20px;
+}
+
+
+.darbo_Antraste{
+	padding-top:20px;
+text-align: center;
+color:#1c3d72;
+font-size: 20px;
+}
+
+
+.perziura{
+
+	background-color: rgb(50, 117, 110);
+	color:white;
+	padding:10px;
+}
+
+
+.perziura:hover{
+text-decoration: none;
+	background-color: rgba(50, 117, 110,0.5);
+	color:black;
+}
+
+/* skelbimas vienas */
+
+.skelbimo_aprasymas{
+font-size: 20px;
+padding:30px;
+width:40%;
+margin:0 auto;
+}
+.skelbimo_antraste{
+	text-align: center;
+}
+#pobudis{
+height: 100%;
+width:100%;
+color:white;
+	background:linear-gradient(rgb(69, 156, 165),rgb(66, 146, 183));
+}
+
+
+/*darbu redagavimas*/
+
+.DR_H1{
+	color:#036564;
+font-size: 45px;
+	text-align: center;
+}
+
+
+.tableCenter{
+width:30%;
+padding-top:25px;
+	margin:0 auto;
+	margin-bottom:50px;
+}
+
+.tableHeader{
+padding:30px;
+color:white;
+font-size: 20px;
+	background-color: #2d4d7f;
+}
+
+.tableElements{
+	text-align: center;
+font-size: 20px;
+	padding:20px;
+}
+
+
+/*darbo skelbimu perziura*/
+.DSP_H3{
+color:#374172;
+padding:5px;
+text-align: center;
+	font-size: 30px;
+}
+.DS_Pavadinimas{
+
+font-size: 40px;
+
+}
+.DSP_H1{
+color:#036564;
+padding:30px;
+	text-align: center;
+	font-size:50px;
+}
+.DS_Blokelis{
+
+box-shadow:0px 0px 20px 0px black;
+
+}
+.lentelesVidus{
+	text-align: center;
+	border-bottom:2px solid black;
+}
+
+/*  darbas */
+
+
+.image-center{
+text-align: center;
+
+}
+.darbo_ft{
+width:800px;
+
+}
+.darbo_antraste{
+font-size: 55px;
+	padding:20px;
+	text-align: center;
+}
+
+.darbo_aprasymas{
+	text-align: center;
+	font-size: 20px;
+}
+
+
+
+
+/* footeris*/
+.footerio{
+background:linear-gradient(to right,rgb(30, 64, 76),#0a665e);
+}
+
+
+.footerio_list{
+	color:black;
+	padding:20px;
+	font-size: 18px;
+list-style: none;
+text-decoration: none;
+	
+}
+ul li a{
+
+	color:white;
+}
+
+.footLabel{
+	text-align:center;
+}
+
+.back-to-top {
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display:none;
+    background-color: #036564;
+    border:none;
+}
+
+
+.back-to-top:visited {
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display:none;
+    background-color: #036564;
+    border:none;
+}
+.back-to-top:active {
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display:none;
+    background-color: #024637;
+    border:none;
+}
+.back-to-top:hover {
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display:none;
+    background-color: #024637;
+    border:none;
+}

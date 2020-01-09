@@ -1,0 +1,92 @@
+html,body{
+font-family: 'Strait';
+	margin:0;
+	padding:0;
+	height:100%;
+	width:100%;
+}
+.intro{
+		height:100%;
+	width:100%;
+	margin:auto;
+	background:url("two.jpg");
+
+	display:table;
+	top:0;
+	background-size:cover;
+background-repeat: none;
+
+background-position: 0px;
+}
+.intro .inner{
+
+
+	display:table-cell;
+	vertical-align: middle;
+	width:100%;
+	max-width: none;
+}
+
+h1{
+color:#031634;
+	font-size: 50px;
+}
+p{
+	color:#031634;
+}
+.content{
+padding-top:3px;
+	max-width:500px;
+	margin:0 auto;
+display:none;
+
+	text-align: center;
+background:white;
+box-shadow: 0px 0px 10px 0px grey;
+padding-bottom: 40px;
+}
+.kontaktuMygt{
+	font-family:'Strait';
+	font-size:15px;
+  background-color:white;
+  border-radius:5px;
+color:#036564;
+border:1px solid #036564;
+
+
+width:150px;
+height:50px;
+padding:0px;
+transition:all 2s;
+}
+ .kontaktuMygt:hover{
+  background-color:#036564;
+  color:white;
+  border:1px solid white;
+cursor:pointer;  
+font-size:18px;
+transition: all 1s;
+width:200px;
+}
+
+
+/* loginas,registracija, index */
+.errorbox{
+	color:red;
+}
+
+.ivestis{
+	font-size:20px;
+border:none;
+background:transparent;
+box-shadow: 0px 2px 0px 0px #036564;
+height:30px;
+width:250px;
+color:#036564;
+
+}
+
+.img{
+width:150px;
+
+}
