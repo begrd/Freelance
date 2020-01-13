@@ -31,18 +31,16 @@
 	$(document).ready(function(){
 
         $(".content").fadeIn(2000);
-      //	$(".intro").fadeIn(2000).css("background", "url('two.jpg')");
-
     });
 $("#login").click(function(){
 
-window.location='login.php';
+window.location='loginregister/login.php';
 
 
 })
 $("#register").click(function(){
 
-window.location='register.php';
+window.location='loginregister/register.php';
 
 
 })

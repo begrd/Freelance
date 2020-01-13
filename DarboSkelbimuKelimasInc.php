@@ -2,7 +2,7 @@
 
 
 
-	require_once("database.php");
+	require_once("loginregister/database.php");
 
 
 

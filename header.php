@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-   <?php //require_once('functions.php');
-   include('LoginRegisterInc.php');
+   <?php require_once('functions.php');
+   include('loginregister/LoginRegisterInc.php');
    include('DarbuKelimasInc.php');
    include('DarboSkelbimuKelimasInc.php');
-   include('functions.php')
-//include('extraFunkc.php');
+   //include('functions.php');
+  include('extraFunkc.php');
    ?>
 	<title>Pagrindinis</title>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -69,7 +69,7 @@ display:none;
                         <li><a href="vartotojo.php">Vartotojo paskyra</a></li>';
                               ?><?php
                       }
-                    echo '<li><a href="atsijungti.php">Atsijungti</a></li>';
+                    echo '<li><a href="loginregister/atsijungti.php">Atsijungti</a></li>';
                   }?>    
 
   

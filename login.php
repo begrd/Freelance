@@ -1,5 +1,5 @@
 
-<?php include('LoginRegisterInc.php');?>
+<?php include('../loginregister/LoginRegisterInc.php');?>
 <?php if(isloggedin()){
 		ob_start();
 		header("location: vartotojo.php");

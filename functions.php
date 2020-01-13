@@ -1,5 +1,5 @@
 <?php
-require_once("database.php");
+require_once(__DIR__."../loginregister/database.php");
 
 function isrinktDuom($id){
 		global $db;
